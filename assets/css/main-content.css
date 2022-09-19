@@ -20,7 +20,7 @@ header {
 
 header h3 {
   margin: 0;
-  color: #0d1458;
+  color: #003500;
   font-weight: 700;
   line-height: 42px;
 }
@@ -58,7 +58,7 @@ header p {
   object-fit: cover;
   border-radius: 50px;
   box-sizing: border-box;
-  border: 1px solid #3547ac;
+  border: 1px solid #002c00;
 }
 
 .information .card {
@@ -75,9 +75,9 @@ header p {
   color: #fff;
   display: flex;
   background-size: cover;
-  background-color: #3547ac;
+  background-color: #002c00;
   justify-content: space-between;
-  box-shadow: rgba(53, 71, 172, 0.5) 0px 20px 50px 0px;
+  box-shadow: rgba(53, 172, 71, 0.5) 0px 20px 50px 0px;
 }
 
 .debit .number {
@@ -97,13 +97,13 @@ header p {
 
 .balance p {
   margin: 0;
-  color: #0d1458;
+  color: #003500;
   font-weight: 600;
 }
 
 .balance h2 {
   margin: 0;
-  color: #3547ac;
+  color: #002c00;
   font-weight: 700;
 }
 
@@ -115,7 +115,7 @@ header p {
 }
 
 .information h5 {
-  color: #0d1458;
+  color: #003500;
   font-weight: 600;
   margin-bottom: 30px;
 }
@@ -138,12 +138,12 @@ header p {
 }
 
 .transaction .title {
-  color: #0d1458;
+  color: #003500;
   font-weight: 600;
 }
 
 .transaction .date {
-  color: #0d1458;
+  color: #003500;
   font-weight: 400;
 }
 
@@ -154,5 +154,5 @@ header p {
 
 .transaction .income {
   font-weight: 500;
-  color: #3547ac;
+  color: #002c00;
 }

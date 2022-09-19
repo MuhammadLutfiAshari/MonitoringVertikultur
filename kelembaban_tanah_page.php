@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Menarra Finance Dashboard Page" />
+    <meta name="description" content="Vertikultur Finance Dashboard Page" />
     <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, Chart JS" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Rachma | @rachmadzii" />
@@ -54,7 +54,7 @@
                 </a>
                 <a href="kelembaban_udara_page.php" class="item-menu">
                     <i class="icon ic-msg"></i>
-                    Kelembaban udara
+                    Kelembaban Udara
                 </a>
                 <a href="#" class="item-menu active">
                     <i class="icon ic-fill"></i>
@@ -95,28 +95,9 @@
                     <div class="d-flex align-items-center justify-content-end gap-4 mb-4">
                         <input type="date" placeholder="Search report .." class="search form-control" />
                     </div>
-                    <div class="col-xl-6 col-12 p-2 mb-5 mb-xl-5 revenue">
-                        <h5>6 Data Terakhir Suhu</h5>
-                        <div class="row justify-content-between">
-                            <div class="col-4">
-                                <h4>O &deg;</h4>
-                                <h6>Suhu terakhir</h6>
-                            </div>
-                            <div class="col-4">
-                                <h4>O &deg;</h4>
-                                <h6>Suhu rata-rata</h6>
-                            </div>
-                            <div class="col-4 text-center">
-                                <span style="font-size: 43px; color: #3547ac">
-                                    <i class="fa-solid fa-temperature-high"></i>
-                                </span>
-                            </div>
-                        </div>
-                        <?php include 'suhu.php' ?>
-                        <div>
-                        </div>
-                    </div>
+                    <?php include 'kelembaban_tanah.php' ?>
                 </div>
+            </div>
             </div>
         </section>
     </main>

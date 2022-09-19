@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Menarra Finance Dashboard Page" />
+    <meta name="description" content="Vertikultur Finance Dashboard Page" />
     <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, Chart JS" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Rachma | @rachmadzii" />
@@ -31,6 +31,7 @@
 </head>
 
 <body>
+
     <!-- Nav Sidebar -->
     <nav class="sidebar offcanvas-md offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false">
         <div class="d-flex justify-content-end m-3 d-block d-md-none">
@@ -95,26 +96,7 @@
                     <div class="d-flex align-items-center justify-content-end gap-4 mb-4">
                         <input type="date" placeholder="Search report .." class="search form-control" />
                     </div>
-                    <div class="col-xl-6 col-12 p-2 mb-5 mb-xl-5 revenue">
-                        <h5>6 Data Terakhir Suhu</h5>
-                        <div class="row justify-content-between">
-                            <div class="col-4">
-                                <h4>26 &deg;</h4>
-                                <h6>Suhu terakhir</h6>
-                            </div>
-                            <div class="col-4">
-                                <h4>27 &deg;</h4>
-                                <h6>Suhu rata-rata</h6>
-                            </div>
-                            <div class="col-4 text-center">
-                                <span style="font-size: 43px; color: #3547ac">
-                                    <i class="fa-solid fa-temperature-high"></i>
-                                </span>
-                            </div>
-                        </div>
                         <?php include 'suhu.php' ?>
-                        <div>
-                        </div>
                     </div>
                 </div>
             </div>

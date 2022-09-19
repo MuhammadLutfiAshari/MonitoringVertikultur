@@ -14,7 +14,7 @@ var config = {
     datasets: [
       {
         backgroundColor: gradient,
-        borderColor: '#3547AC',
+        borderColor: '#003500',
         fill: true,
         borderWidth: 4,
         pointRadius: 7,

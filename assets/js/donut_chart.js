@@ -19,7 +19,7 @@ var chart = new Chart(ctx, {
       {
         label: 'Budget Stats',
         data: [60, 40],
-        backgroundColor: ['#3547AC', '#DCE2F4'],
+        backgroundColor: ['#003500', '#DCE2F4'],
         borderWidth: 0,
       },
     ],
@@ -33,7 +33,7 @@ var chart = new Chart(ctx, {
       labels: {
         fontSize: 14,
         usePointStyle: true,
-        fontColor: '#0D1458',
+        fontColor: '#003500',
         padding: 20,
       },
     },
